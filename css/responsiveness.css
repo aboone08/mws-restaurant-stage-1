@@ -1,4 +1,9 @@
 @media screen and (min-width: 320px){
+/*  #maincontent {
+    max-width: 320px;
+    margin: 0 auto;
+    display: flex;
+  }*/
   h1{
     padding-top: 8px;
   }
@@ -60,10 +65,14 @@
     font-size: 18pt;
     margin: -20px 0px 10px;
   }
+  #reviews-list{
+    margin-left: -30px;
+    width: 75%;
+  }
   #reviews-list li {
-    margin: 0 -40px 0;
-    padding: 4px;
-    width: 90%;
+    padding: 10px;
+    margin-top: -14px;
+    width: 100%;
   }
   #footer {
     padding: 7px;
@@ -71,6 +80,10 @@
 }
 
 @media screen and (min-width: 360px){
+  #restaurants-list li {
+    width: 238px;
+  }
+
   #restaurant-name{
     width: 50%;
     margin: 60px 0 20px;
@@ -98,6 +111,9 @@
   }
   #restaurants-list {
     padding: 0px 25px 30px;
+  }
+  #restaurants-list li {
+    width: 270px;
   }
 
   p{
